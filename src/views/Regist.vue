@@ -7,29 +7,24 @@
       <div class="card-body">
         <form style="text-align: right">
           <div class="row">
-            <div class="form-group col-md-4">
+            <div class="form-group col-md-6">
               <label>اسم صاحب المصنع او الشركة :</label>
               <br />
               <input type="text" class="form-control" required />
             </div>
 
-            <div class="form-group col-md-4">
+            <div class="form-group col-md-3">
               <label>رقم الهاتف :</label>
               <br />
               <input type="phone" class="form-control" required />
             </div>
 
-            <div class="form-group col-md-4">
+            <div class="form-group col-md-3">
               <label>البلد ية :</label>
-              <br />
               <select class="form-control">
-                <option selected disabled>اختر البلدية</option>
-                <option value="1">طرابلس</option>
-                <option value="2">بن وليد</option>
-                <option value="3">بنغازي</option>
-                <option value="1">المرج</option>
-                <option value="2">غات</option>
-                <option value="3">درنة</option>
+            <option selected disabled>اختر البلدية</option>
+                <option v-for="cities in cities" :key="cities.pk" value="cities.pk">{{cities.fields.name}}</option>
+              
               </select>
             </div>
           </div>
@@ -42,9 +37,7 @@
               <br />
               <select class="form-control">
                 <option selected disabled>اختر الشكل القانوني</option>
-                <option value="1">فردي</option>
-                <option value="2">مساهمة</option>
-                <option value="3">ذات المسئولية المحدودة</option>
+                <option v-for="legal in legals" :key="legal.pk" value="legal.pk">{{legal.fields.name}}</option>
               </select>
             </div>
             <div class="form-group col-md-6">
@@ -134,9 +127,21 @@
           <hr>
           <div class="row">
             <div v-for="key in count" :key="key" class="row col-md-10" id="p">
-              <div class="form-group col-md-3">
-                <label>اسم المصنع :</label>
+                 <div class="form-group col-md-2">
+                <label>رقم الكود :</label>
                 <input
+                  v-model="search_code_factory"
+                  type="text"
+                  class="form-control"
+                  required
+                  :id="key"
+                />
+              </div>
+
+              <div class="form-group col-md-4">
+                <label v-for="factory in filtered_search_code_factory" :key="factory.pk">{{factory.fields.name}}</label>
+                <input
+                disabled
                   v-model="values['dynamic-field-' + key]"
                   type="text"
                   class="form-control"
@@ -144,16 +149,7 @@
                   :id="key"
                 />
               </div>
-              <div class="form-group col-md-3">
-                <label>رقم الكود :</label>
-                <input
-                  v-model="values['dynamic-field-2' + key]"
-                  type="text"
-                  class="form-control"
-                  required
-                  :id="key"
-                />
-              </div>
+             
 
                <div class="form-group col-md-2">
                     <label>العدد :</label>
@@ -218,17 +214,7 @@
           <hr>
           <div class="row">
             <div v-for="key in count_prodect" :key="key" class="row col-md-8" id="p">
-              <div class="form-group col-md-6">
-                <label>اسم المنتج :</label>
-                <input
-                  v-model="values_prodect['dynamic-field-' + key]"
-                  type="text"
-                  class="form-control"
-                  required
-                  :id="key"
-                />
-              </div>
-              <div class="form-group col-md-6">
+                 <div class="form-group col-md-6">
                 <label>رقم الكود :</label>
                 <input
                   v-model="values_prodect['dynamic-field-2' + key]"
@@ -238,6 +224,18 @@
                   :id="key"
                 />
               </div>
+              <div class="form-group col-md-6">
+                <label>اسم المنتج :</label>
+                <input
+                disabled
+                  v-model="values_prodect['dynamic-field-' + key]"
+                  type="text"
+                  class="form-control"
+                  required
+                  :id="key"
+                />
+              </div>
+             
             </div>
 
             <div class="form-group col-md-4" style="display: inline">
@@ -266,7 +264,7 @@
 
 
   <br><br><br><br>
-          <h4>الوقائع و التعديلات</h4>
+          <!-- <h4>الوقائع و التعديلات</h4>
           <hr>
           <div class="row">
             <div v-for="key in count_facts_browsers" :key="key" class="row col-md-8" id="p">
@@ -313,7 +311,7 @@
                 -
               </button>
             </div>
-          </div>
+          </div> -->
 
           
         </form>
@@ -327,7 +325,7 @@
           class="btn my-btn bg-orange col-md-4"
           style="background-color: #f26334; color: #ffff"
         >
-          تسجيل
+          إرسال 
         </button>
 
         <br /><br />
@@ -338,6 +336,11 @@
 </template>
 
 <script>
+
+import legal_status from"../json/legal_status.json"
+import cities from"../json/cities.json"
+import factory_code_name from"../json/factory_code_name.json"
+
 export default {
   name: "regist",
   data: function () {
@@ -349,8 +352,13 @@ export default {
       values_prodect:{},
 
       count_facts_browsers:1,
-      values_facts_browsers:{}
-      
+      values_facts_browsers:{},
+
+      legals:legal_status,
+
+      cities:cities,
+      search_code_factory:"",
+      factory_code_name:factory_code_name
     
     };
   },
@@ -377,7 +385,15 @@ export default {
       for (var key of Object.keys(this.values)) {
         console.log(key + " -> " + this.values[key]);
       }
+      
     },
   },
+  computed:
+  {
+      filtered_search_code_factory()
+      {
+         return this.factory_code_name.filter(factory => factory.pk.toString().includes(this.search_code_factory))
+      }
+  }
 };
 </script>

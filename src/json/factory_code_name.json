@@ -1,0 +1,33 @@
+[{
+        "model": "members.city",
+        "pk": 1234567891011,
+        "fields": {
+            "name": "مصنع البان الاول"
+
+        }
+    },
+
+    {
+        "model": "members.city",
+        "pk": 1234567891012,
+        "fields": {
+            "name": "مصنع تنظيف "
+        }
+    },
+
+    {
+        "model": "members.city",
+        "pk": 1234567891013,
+        "fields": {
+            "name": "مصنع عصير"
+        }
+    },
+
+    {
+        "model": "members.city",
+        "pk": 1234567891014,
+        "fields": {
+            "name": "مصنع جودي"
+        }
+    }
+]

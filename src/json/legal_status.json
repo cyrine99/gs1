@@ -1,0 +1,82 @@
+[{
+        "model": "members.legalstatus",
+        "pk": 6,
+        "fields": {
+            "name": "نشاط فردي",
+            "timestamp": "2022-01-24T10:55:12.089",
+            "updated": "2022-01-24T10:55:12.089"
+        }
+    },
+    {
+        "model": "members.legalstatus",
+        "pk": 7,
+        "fields": {
+            "name": "شركة التضامن",
+            "timestamp": "2022-01-24T10:55:24.734",
+            "updated": "2022-01-24T10:55:24.734"
+        }
+    },
+    {
+        "model": "members.legalstatus",
+        "pk": 8,
+        "fields": {
+            "name": "شركة التوصية البسيطة",
+            "timestamp": "2022-01-24T10:55:50.747",
+            "updated": "2022-01-24T10:55:50.747"
+        }
+    },
+    {
+        "model": "members.legalstatus",
+        "pk": 10,
+        "fields": {
+            "name": "شركة التوصية بالاسهم",
+            "timestamp": "2022-01-24T10:56:05.390",
+            "updated": "2022-01-24T10:56:05.390"
+        }
+    },
+    {
+        "model": "members.legalstatus",
+        "pk": 11,
+        "fields": {
+            "name": "شركة المحاصصة",
+            "timestamp": "2022-01-24T10:56:21.459",
+            "updated": "2022-01-24T10:56:21.459"
+        }
+    },
+    {
+        "model": "members.legalstatus",
+        "pk": 12,
+        "fields": {
+            "name": "شركة ذات مسؤلية محدودة",
+            "timestamp": "2022-01-24T10:56:36.655",
+            "updated": "2022-01-24T10:56:36.655"
+        }
+    },
+    {
+        "model": "members.legalstatus",
+        "pk": 13,
+        "fields": {
+            "name": "شركة مساهمة",
+            "timestamp": "2022-01-24T10:56:50.475",
+            "updated": "2022-01-24T10:56:50.475"
+        }
+    },
+    {
+        "model": "members.legalstatus",
+        "pk": 14,
+        "fields": {
+            "name": "شركة عامة",
+            "timestamp": "2022-01-24T10:56:59.074",
+            "updated": "2022-01-24T10:56:59.074"
+        }
+    },
+    {
+        "model": "members.legalstatus",
+        "pk": 15,
+        "fields": {
+            "name": "شركة قابضة",
+            "timestamp": "2022-01-24T10:57:05.950",
+            "updated": "2022-01-24T10:57:05.950"
+        }
+    }
+]
