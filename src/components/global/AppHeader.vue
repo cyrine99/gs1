@@ -4,7 +4,7 @@
       <div class="container" dir="rtl">
         <a class="navbar-brand" href="#">
           <img alt="Vue logo" src="../../assets/gs1libya_logo.png" />
-          نظام السجل الصناعي
+           السجل الصناعي الإلكتروني
         </a>
         <button
           class="navbar-toggler"
@@ -20,7 +20,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">
+              <a class="nav-link active home_link" aria-current="page" href="/">
                 الرئيسية
               </a>
             </li>
@@ -94,5 +94,10 @@ nav ul {
   font-size: 1.3rem;
   font-weight: 500;
   color: #f26334;
+}
+
+.home_link:hover
+{
+    background-color: #cde9f5;
 }
 </style>

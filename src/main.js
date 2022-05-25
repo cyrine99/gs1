@@ -6,6 +6,8 @@ import store from "./store";
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+
+
 import "./style/style.css"
 
 import "./Filters/Filter.js"

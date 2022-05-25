@@ -21,6 +21,10 @@ a {
     text-decoration: none;
 }
 
+h4 {
+    color: #002C6C;
+}
+
 .event-cover-con {
     background-image: url(../assets/bg.jpg);
     position: relative;
@@ -44,5 +48,33 @@ a {
 .register-btn a {
     color: #FFFF;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 0px;
+}
+
+label {
+    color: #002C6C;
+    font-weight: 600;
+}
+
+.form-control {
+    border-radius: 0%;
+    border-color: #002C6C;
+    border-width: 1px;
+    margin-top: 5px;
+}
+
+.btn {
+    border-radius: 0%;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.fieldset_legend_regist {
+    border-width: 2px;
+    text-align: center;
+}
+
+.fieldset_legend_regist span {
+    color: #002C6C;
+    font-size: 20px;
 }
