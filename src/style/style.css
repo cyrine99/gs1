@@ -21,7 +21,8 @@ a {
     text-decoration: none;
 }
 
-h4 {
+h4,
+p {
     color: #002C6C;
 }
 
@@ -41,6 +42,11 @@ h4 {
 }
 
 .add_regist_code_prodect {
+    width: 100%;
+    height: 40px;
+}
+
+.add_regist_code_prodect_tow {
     width: 50px;
     height: 40px;
 }

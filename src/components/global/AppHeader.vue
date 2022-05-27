@@ -3,8 +3,8 @@
     <nav class="navbar navbar-expand-lg">
       <div class="container" dir="rtl">
         <a class="navbar-brand" href="#">
-          <img alt="Vue logo" src="../../assets/gs1libya_logo.png" />
-           السجل الصناعي الإلكتروني
+          <img class="logo" src="../../assets/logo.jpg" />
+           <p style="margin-top:8px;color: #F26334">السجل الصناعي الإلكتروني</p>
         </a>
         <button
           class="navbar-toggler"
@@ -81,6 +81,9 @@ nav ul {
 }
 .logo {
   float: right;
+  height:50px; 
+  border-radius: 50px;
+  margin-left:18px
 }
 .navbar .nav-item .nav-link {
   font-size: 16px;
