@@ -84,3 +84,14 @@ label {
     color: #002C6C;
     font-size: 20px;
 }
+
+.style-chooser .vs__search::placeholder,
+.style-chooser .vs__dropdown-toggle,
+.style-chooser .vs__dropdown-menu {
+    color: #394066;
+    border-radius: 0%;
+    border-width: 1px;
+    border-color: #002C6C;
+    margin-top: 5px;
+    padding-bottom: 8px;
+}

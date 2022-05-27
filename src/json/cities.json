@@ -1,677 +1,451 @@
-[
-{
+[{
     "model": "members.city",
     "pk": 2,
-    "fields": {
-        "name": "بنغازي",
-        "foreign_name": "Benghazi",
-        "state": "الشرقية"
-    }
-},
-{
+    "name": "بنغازي",
+    "foreign_name": "Benghazi",
+    "state": "الشرقية"
+}, {
     "model": "members.city",
     "pk": 3,
-    "fields": {
-        "name": "مصراتة",
-        "foreign_name": "Misrata",
-        "state": "الغربية"
-    }
-},
-{
+    "name": "مصراتة",
+    "foreign_name": "Misrata",
+    "state": "الغربية"
+}, {
     "model": "members.city",
     "pk": 4,
-    "fields": {
-        "name": "البيضاء",
-        "foreign_name": "Bayda",
-        "state": "الشرقية"
-    }
-},
-{
+    "name": "البيضاء",
+    "foreign_name": "Bayda",
+    "state": "الشرقية"
+}, {
     "model": "members.city",
     "pk": 5,
-    "fields": {
-        "name": "الزاوية",
-        "foreign_name": "Zawiya",
-        "state": "الغربية"
-    }
-},
-{
+    "name": "الزاوية",
+    "foreign_name": "Zawiya",
+    "state": "الغربية"
+}, {
     "model": "members.city",
     "pk": 6,
-    "fields": {
-        "name": "زليتن",
-        "foreign_name": "Zliten",
-        "state": "الغربية"
-    }
-},
-{
+    "name": "زليتن",
+    "foreign_name": "Zliten",
+    "state": "الغربية"
+}, {
     "model": "members.city",
     "pk": 7,
-    "fields": {
-        "name": "اجدابيا",
-        "foreign_name": "Ajdabiya",
-        "state": "الشرقية"
-    }
-},
-{
+    "name": "اجدابيا",
+    "foreign_name": "Ajdabiya",
+    "state": "الشرقية"
+}, {
     "model": "members.city",
     "pk": 8,
-    "fields": {
-        "name": "طبرق",
-        "foreign_name": "Tobruk",
-        "state": "الغربية"
-    }
-},
-{
+    "name": "طبرق",
+    "foreign_name": "Tobruk",
+    "state": "الغربية"
+}, {
     "model": "members.city",
     "pk": 9,
-    "fields": {
-        "name": "سبها",
-        "foreign_name": "Sabha",
-        "state": "الوسطى"
-    }
-},
-{
+    "name": "سبها",
+    "foreign_name": "Sabha",
+    "state": "الوسطى"
+}, {
     "model": "members.city",
     "pk": 10,
-    "fields": {
-        "name": "الخمس",
-        "foreign_name": "Khoms",
-        "state": "الغربية"
-    }
-},
-{
+    "name": "الخمس",
+    "foreign_name": "Khoms",
+    "state": "الغربية"
+}, {
     "model": "members.city",
     "pk": 11,
-    "fields": {
-        "name": "درنة",
-        "foreign_name": "Derna",
-        "state": "الشرقية"
-    }
-},
-{
+    "name": "درنة",
+    "foreign_name": "Derna",
+    "state": "الشرقية"
+}, {
     "model": "members.city",
     "pk": 12,
-    "fields": {
-        "name": "صبراتة",
-        "foreign_name": "Sabratha",
-        "state": "الغربية"
-    }
-},
-{
+    "name": "صبراتة",
+    "foreign_name": "Sabratha",
+    "state": "الغربية"
+}, {
     "model": "members.city",
     "pk": 13,
-    "fields": {
-        "name": "زوارة",
-        "foreign_name": "Zuwara",
-        "state": "الغربية"
-    }
-},
-{
+    "name": "زوارة",
+    "foreign_name": "Zuwara",
+    "state": "الغربية"
+}, {
     "model": "members.city",
     "pk": 14,
-    "fields": {
-        "name": "الكفرة",
-        "foreign_name": "Kufra",
-        "state": "الشرقية"
-    }
-},
-{
+    "name": "الكفرة",
+    "foreign_name": "Kufra",
+    "state": "الشرقية"
+}, {
     "model": "members.city",
     "pk": 15,
-    "fields": {
-        "name": "المرج",
-        "foreign_name": "Marj",
-        "state": "الشرقية"
-    }
-},
-{
+    "name": "المرج",
+    "foreign_name": "Marj",
+    "state": "الشرقية"
+}, {
     "model": "members.city",
     "pk": 16,
-    "fields": {
-        "name": "تاجوراء",
-        "foreign_name": "Tajura",
-        "state": "الغربية"
-    }
-},
-{
+    "name": "تاجوراء",
+    "foreign_name": "Tajura",
+    "state": "الغربية"
+}, {
     "model": "members.city",
     "pk": 17,
-    "fields": {
-        "name": "ترهونة",
-        "foreign_name": "Tarhuna",
-        "state": "الغربية"
-    }
-},
-{
+    "name": "ترهونة",
+    "foreign_name": "Tarhuna",
+    "state": "الغربية"
+}, {
     "model": "members.city",
     "pk": 18,
-    "fields": {
-        "name": "سرت",
-        "foreign_name": "Sirte",
-        "state": "الوسطى"
-    }
-},
-{
+    "name": "سرت",
+    "foreign_name": "Sirte",
+    "state": "الوسطى"
+}, {
     "model": "members.city",
     "pk": 19,
-    "fields": {
-        "name": "غريان",
-        "foreign_name": "Gharyan",
-        "state": "الغربية"
-    }
-},
-{
+    "name": "غريان",
+    "foreign_name": "Gharyan",
+    "state": "الغربية"
+}, {
     "model": "members.city",
     "pk": 20,
-    "fields": {
-        "name": "مسلاتة",
-        "foreign_name": "Msallata",
-        "state": "الغربية"
-    }
-},
-{
+    "name": "مسلاتة",
+    "foreign_name": "Msallata",
+    "state": "الغربية"
+}, {
     "model": "members.city",
     "pk": 21,
-    "fields": {
-        "name": "بني وليد",
-        "foreign_name": "Bani Walid",
-        "state": "الوسطى"
-    }
-},
-{
+    "name": "بني وليد",
+    "foreign_name": "Bani Walid",
+    "state": "الوسطى"
+}, {
     "model": "members.city",
     "pk": 22,
-    "fields": {
-        "name": "جميل",
-        "foreign_name": "Jumayl",
-        "state": "الغربية"
-    }
-},
-{
+    "name": "جميل",
+    "foreign_name": "Jumayl",
+    "state": "الغربية"
+}, {
     "model": "members.city",
     "pk": 23,
-    "fields": {
-        "name": "صرمان",
-        "foreign_name": "Sorman",
-        "state": "الغربية"
-    }
-},
-{
+    "name": "صرمان",
+    "foreign_name": "Sorman",
+    "state": "الغربية"
+}, {
     "model": "members.city",
     "pk": 24,
-    "fields": {
-        "name": "القصيبات",
-        "foreign_name": "Al Gseibat",
-        "state": "الغربية"
-    }
-},
-{
+    "name": "القصيبات",
+    "foreign_name": "Al Gseibat",
+    "state": "الغربية"
+}, {
     "model": "members.city",
     "pk": 25,
-    "fields": {
-        "name": "شحات",
-        "foreign_name": "Shahhat",
-        "state": "الشرقية"
-    }
-},
-{
+    "name": "شحات",
+    "foreign_name": "Shahhat",
+    "state": "الشرقية"
+}, {
     "model": "members.city",
     "pk": 26,
-    "fields": {
-        "name": "أوباري",
-        "foreign_name": "Ubari",
-        "state": "الوسطى"
-    }
-},
-{
+    "name": "أوباري",
+    "foreign_name": "Ubari",
+    "state": "الوسطى"
+}, {
     "model": "members.city",
     "pk": 27,
-    "fields": {
-        "name": "أسبيعة",
-        "foreign_name": "Asbi'a",
-        "state": "الغربية"
-    }
-},
-{
+    "name": "أسبيعة",
+    "foreign_name": "Asbi'a",
+    "state": "الغربية"
+}, {
     "model": "members.city",
     "pk": 28,
-    "fields": {
-        "name": "ودان",
-        "foreign_name": "Waddan",
-        "state": "الوسطى"
-    }
-},
-{
+    "name": "ودان",
+    "foreign_name": "Waddan",
+    "state": "الوسطى"
+}, {
     "model": "members.city",
     "pk": 29,
-    "fields": {
-        "name": "العقيلة",
-        "foreign_name": "El Agheila",
-        "state": "الشرقية"
-    }
-},
-{
+    "name": "العقيلة",
+    "foreign_name": "El Agheila",
+    "state": "الشرقية"
+}, {
     "model": "members.city",
     "pk": 30,
-    "fields": {
-        "name": "أبيار",
-        "foreign_name": "Abyar",
-        "state": "الشرقية"
-    }
-},
-{
+    "name": "أبيار",
+    "foreign_name": "Abyar",
+    "state": "الشرقية"
+}, {
     "model": "members.city",
     "pk": 31,
-    "fields": {
-        "name": "نوفلية",
-        "foreign_name": "Nofaliya",
-        "state": "الشرقية"
-    }
-},
-{
+    "name": "نوفلية",
+    "foreign_name": "Nofaliya",
+    "state": "الشرقية"
+}, {
     "model": "members.city",
     "pk": 32,
-    "fields": {
-        "name": "رقدالين",
-        "foreign_name": "Regdalin",
-        "state": "الغربية"
-    }
-},
-{
+    "name": "رقدالين",
+    "foreign_name": "Regdalin",
+    "state": "الغربية"
+}, {
     "model": "members.city",
     "pk": 33,
-    "fields": {
-        "name": "قصر الأخيار",
-        "foreign_name": "Gasr Akhyar",
-        "state": "الوسطى"
-    }
-},
-{
+    "name": "قصر الأخيار",
+    "foreign_name": "Gasr Akhyar",
+    "state": "الوسطى"
+}, {
     "model": "members.city",
     "pk": 34,
-    "fields": {
-        "name": "القبة",
-        "foreign_name": "Al Qubah",
-        "state": "الشرقية"
-    }
-},
-{
+    "name": "القبة",
+    "foreign_name": "Al Qubah",
+    "state": "الشرقية"
+}, {
     "model": "members.city",
     "pk": 35,
-    "fields": {
-        "name": "تاورغاء",
-        "foreign_name": "Tawergha",
-        "state": "الوسطى"
-    }
-},
-{
+    "name": "تاورغاء",
+    "foreign_name": "Tawergha",
+    "state": "الوسطى"
+}, {
     "model": "members.city",
     "pk": 36,
-    "fields": {
-        "name": "المايا",
-        "foreign_name": "Al Maya",
-        "state": "الغربية"
-    }
-},
-{
+    "name": "المايا",
+    "foreign_name": "Al Maya",
+    "state": "الغربية"
+}, {
     "model": "members.city",
     "pk": 37,
-    "fields": {
-        "name": "مرزق",
-        "foreign_name": "Murzuk",
-        "state": "الوسطى"
-    }
-},
-{
+    "name": "مرزق",
+    "foreign_name": "Murzuk",
+    "state": "الوسطى"
+}, {
     "model": "members.city",
     "pk": 38,
-    "fields": {
-        "name": "البريقة",
-        "foreign_name": "Brega",
-        "state": "الشرقية"
-    }
-},
-{
+    "name": "البريقة",
+    "foreign_name": "Brega",
+    "state": "الشرقية"
+}, {
     "model": "members.city",
     "pk": 39,
-    "fields": {
-        "name": "تغسات",
-        "foreign_name": "Teghsat",
-        "state": "الغربية"
-    }
-},
-{
+    "name": "تغسات",
+    "foreign_name": "Teghsat",
+    "state": "الغربية"
+}, {
     "model": "members.city",
     "pk": 40,
-    "fields": {
-        "name": "هون",
-        "foreign_name": "Hun",
-        "state": "الوسطى"
-    }
-},
-{
+    "name": "هون",
+    "foreign_name": "Hun",
+    "state": "الوسطى"
+}, {
     "model": "members.city",
     "pk": 41,
-    "fields": {
-        "name": "جالو",
-        "foreign_name": "Jalu",
-        "state": "الشرقية"
-    }
-},
-{
+    "name": "جالو",
+    "foreign_name": "Jalu",
+    "state": "الشرقية"
+}, {
     "model": "members.city",
     "pk": 42,
-    "fields": {
-        "name": "العجيلات",
-        "foreign_name": "Al Ujeilat",
-        "state": "الغربية"
-    }
-},
-{
+    "name": "العجيلات",
+    "foreign_name": "Al Ujeilat",
+    "state": "الغربية"
+}, {
     "model": "members.city",
     "pk": 43,
-    "fields": {
-        "name": "نالوت",
-        "foreign_name": "Nalut",
-        "state": "الغربية"
-    }
-},
-{
+    "name": "نالوت",
+    "foreign_name": "Nalut",
+    "state": "الغربية"
+}, {
     "model": "members.city",
     "pk": 44,
-    "fields": {
-        "name": "سلوق",
-        "foreign_name": "Suluq",
-        "state": "الشرقية"
-    }
-},
-{
+    "name": "سلوق",
+    "foreign_name": "Suluq",
+    "state": "الشرقية"
+}, {
     "model": "members.city",
     "pk": 45,
-    "fields": {
-        "name": "الزنتان",
-        "foreign_name": "Zaltan",
-        "state": "الغربية"
-    }
-},
-{
+    "name": "الزنتان",
+    "foreign_name": "Zaltan",
+    "state": "الغربية"
+}, {
     "model": "members.city",
     "pk": 46,
-    "fields": {
-        "name": "مزدا",
-        "foreign_name": "Mizda",
-        "state": "الغربية"
-    }
-},
-{
+    "name": "مزدا",
+    "foreign_name": "Mizda",
+    "state": "الغربية"
+}, {
     "model": "members.city",
     "pk": 47,
-    "fields": {
-        "name": "رأس لانوف",
-        "foreign_name": "Ra's Lanuf",
-        "state": "الشرقية"
-    }
-},
-{
+    "name": "رأس لانوف",
+    "foreign_name": "Ra's Lanuf",
+    "state": "الشرقية"
+}, {
     "model": "members.city",
     "pk": 48,
-    "fields": {
-        "name": "العربان",
-        "foreign_name": "Al Urban",
-        "state": "الغربية"
-    }
-},
-{
+    "name": "العربان",
+    "foreign_name": "Al Urban",
+    "state": "الغربية"
+}, {
     "model": "members.city",
     "pk": 49,
-    "fields": {
-        "name": "يفرن",
-        "foreign_name": "Yafran",
-        "state": "الغربية"
-    }
-},
-{
+    "name": "يفرن",
+    "foreign_name": "Yafran",
+    "state": "الغربية"
+}, {
     "model": "members.city",
     "pk": 50,
-    "fields": {
-        "name": "الريانية",
-        "foreign_name": "Ar Rayaniya",
-        "state": "الغربية"
-    }
-},
-{
+    "name": "الريانية",
+    "foreign_name": "Ar Rayaniya",
+    "state": "الغربية"
+}, {
     "model": "members.city",
     "pk": 51,
-    "fields": {
-        "name": "أم الرزم",
-        "foreign_name": "Umm al Rizam",
-        "state": "الشرقية"
-    }
-},
-{
+    "name": "أم الرزم",
+    "foreign_name": "Umm al Rizam",
+    "state": "الشرقية"
+}, {
     "model": "members.city",
     "pk": 52,
-    "fields": {
-        "name": "براك",
-        "foreign_name": "Brak",
-        "state": "الوسطى"
-    }
-},
-{
+    "name": "براك",
+    "foreign_name": "Brak",
+    "state": "الوسطى"
+}, {
     "model": "members.city",
     "pk": 53,
-    "fields": {
-        "name": "تيجي",
-        "foreign_name": "Teji",
-        "state": "الغربية"
-    }
-},
-{
+    "name": "تيجي",
+    "foreign_name": "Teji",
+    "state": "الغربية"
+}, {
     "model": "members.city",
     "pk": 54,
-    "fields": {
-        "name": "قمينس",
-        "foreign_name": "Qaminis",
-        "state": "الشرقية"
-    }
-},
-{
+    "name": "قمينس",
+    "foreign_name": "Qaminis",
+    "state": "الشرقية"
+}, {
     "model": "members.city",
     "pk": 55,
-    "fields": {
-        "name": "قطرون",
-        "foreign_name": "Qatrun",
-        "state": "الوسطى"
-    }
-},
-{
+    "name": "قطرون",
+    "foreign_name": "Qatrun",
+    "state": "الوسطى"
+}, {
     "model": "members.city",
     "pk": 56,
-    "fields": {
-        "name": "بنينا",
-        "foreign_name": "Benina",
-        "state": "الشرقية"
-    }
-},
-{
+    "name": "بنينا",
+    "foreign_name": "Benina",
+    "state": "الشرقية"
+}, {
     "model": "members.city",
     "pk": 57,
-    "fields": {
-        "name": "ككلة",
-        "foreign_name": "Kikla",
-        "state": "الغربية"
-    }
-},
-{
+    "name": "ككلة",
+    "foreign_name": "Kikla",
+    "state": "الغربية"
+}, {
     "model": "members.city",
     "pk": 58,
-    "fields": {
-        "name": "سوكنا",
-        "foreign_name": "Sokna",
-        "state": "الوسطى"
-    }
-},
-{
+    "name": "سوكنا",
+    "foreign_name": "Sokna",
+    "state": "الوسطى"
+}, {
     "model": "members.city",
     "pk": 59,
-    "fields": {
-        "name": "بن جواد",
-        "foreign_name": "Bin Jawad",
-        "state": "الشرقية"
-    }
-},
-{
+    "name": "بن جواد",
+    "foreign_name": "Bin Jawad",
+    "state": "الشرقية"
+}, {
     "model": "members.city",
     "pk": 60,
-    "fields": {
-        "name": "جادو",
-        "foreign_name": "Jadu",
-        "state": "الغربية"
-    }
-},
-{
+    "name": "جادو",
+    "foreign_name": "Jadu",
+    "state": "الغربية"
+}, {
     "model": "members.city",
     "pk": 61,
-    "fields": {
-        "name": "غدامس",
-        "foreign_name": "Ghadames",
-        "state": "الغربية"
-    }
-},
-{
+    "name": "غدامس",
+    "foreign_name": "Ghadames",
+    "state": "الغربية"
+}, {
     "model": "members.city",
     "pk": 62,
-    "fields": {
-        "name": "غات",
-        "foreign_name": "Ghat",
-        "state": "الوسطى"
-    }
-},
-{
+    "name": "غات",
+    "foreign_name": "Ghat",
+    "state": "الوسطى"
+}, {
     "model": "members.city",
     "pk": 63,
-    "fields": {
-        "name": "الابرق",
-        "foreign_name": "Al Abraq",
-        "state": "الشرقية"
-    }
-},
-{
+    "name": "الابرق",
+    "foreign_name": "Al Abraq",
+    "state": "الشرقية"
+}, {
     "model": "members.city",
     "pk": 64,
-    "fields": {
-        "name": "الرجبان",
-        "foreign_name": "Ar Rajban",
-        "state": "الغربية"
-    }
-},
-{
+    "name": "الرجبان",
+    "foreign_name": "Ar Rajban",
+    "state": "الغربية"
+}, {
     "model": "members.city",
     "pk": 65,
-    "fields": {
-        "name": "أوجلة",
-        "foreign_name": "Awjila",
-        "state": "الشرقية"
-    }
-},
-{
+    "name": "أوجلة",
+    "foreign_name": "Awjila",
+    "state": "الشرقية"
+}, {
     "model": "members.city",
     "pk": 66,
-    "fields": {
-        "name": "زلة",
-        "foreign_name": "Zella",
-        "state": "الوسطى"
-    }
-},
-{
+    "name": "زلة",
+    "foreign_name": "Zella",
+    "state": "الوسطى"
+}, {
     "model": "members.city",
     "pk": 67,
-    "fields": {
-        "name": "وادي عتبة",
-        "foreign_name": "Wadi Utba",
-        "state": "الغربية"
-    }
-},
-{
+    "name": "وادي عتبة",
+    "foreign_name": "Wadi Utba",
+    "state": "الغربية"
+}, {
     "model": "members.city",
     "pk": 68,
-    "fields": {
-        "name": "تراغن",
-        "foreign_name": "Traghan",
-        "state": "الوسطى"
-    }
-},
-{
+    "name": "تراغن",
+    "foreign_name": "Traghan",
+    "state": "الوسطى"
+}, {
     "model": "members.city",
     "pk": 69,
-    "fields": {
-        "name": "البيضاء",
-        "foreign_name": "El Bayyada",
-        "state": "الشرقية"
-    }
-},
-{
+    "name": "البيضاء",
+    "foreign_name": "El Bayyada",
+    "state": "الشرقية"
+}, {
     "model": "members.city",
     "pk": 70,
-    "fields": {
-        "name": "القيقب",
-        "foreign_name": "Qayqab",
-        "state": "الشرقية"
-    }
-},
-{
+    "name": "القيقب",
+    "foreign_name": "Qayqab",
+    "state": "الشرقية"
+}, {
     "model": "members.city",
     "pk": 71,
-    "fields": {
-        "name": "مساعد",
-        "foreign_name": "Musaid",
-        "state": "الشرقية"
-    }
-},
-{
+    "name": "مساعد",
+    "foreign_name": "Musaid",
+    "state": "الشرقية"
+}, {
     "model": "members.city",
     "pk": 72,
-    "fields": {
-        "name": "تاكنيس",
-        "foreign_name": "Tacnis",
-        "state": "الشرقية"
-    }
-},
-{
+    "name": "تاكنيس",
+    "foreign_name": "Tacnis",
+    "state": "الشرقية"
+}, {
     "model": "members.city",
     "pk": 73,
-    "fields": {
-        "name": "سوسة",
-        "foreign_name": "Susa",
-        "state": "الشرقية"
-    }
-},
-{
+    "name": "سوسة",
+    "foreign_name": "Susa",
+    "state": "الشرقية"
+}, {
     "model": "members.city",
     "pk": 74,
-    "fields": {
-        "name": "تازربو",
-        "foreign_name": "Tazirbu",
-        "state": "الشرقية"
-    }
-},
-{
+    "name": "تازربو",
+    "foreign_name": "Tazirbu",
+    "state": "الشرقية"
+}, {
     "model": "members.city",
     "pk": 75,
-    "fields": {
-        "name": "فرزوغة",
-        "foreign_name": "Farzougha",
-        "state": "الشرقية"
-    }
-},
-{
+    "name": "فرزوغة",
+    "foreign_name": "Farzougha",
+    "state": "الشرقية"
+}, {
     "model": "members.city",
     "pk": 76,
-    "fields": {
-        "name": "قرية عمر المختار",
-        "foreign_name": "Qaryat ‘Umar al Mukhtar",
-        "state": "الشرقية"
-    }
-}
-]
+    "name": "قرية عمر المختار",
+    "foreign_name": "Qaryat ‘Umar al Mukhtar",
+    "state": "الشرقية"
+}]

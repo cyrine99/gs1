@@ -6,13 +6,17 @@ import store from "./store";
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+import vSelect from "vue-select"; //1
 
 
 import "./style/style.css"
 
 import "./Filters/Filter.js"
+import "vue-select/dist/vue-select.css"; //2
 
 Vue.config.productionTip = false;
+
+Vue.component('v-select', vSelect); //3
 
 //مكتوب بال  ES 6
 new Vue({

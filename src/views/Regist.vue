@@ -2,7 +2,9 @@
   <div dir="rtl">
     <br />
     <div class="card text-center col-10 m-auto">
-      <div class="card-header text-muted"><h4>نظام  التسجيل في السجل الصناعي للمواطن</h4></div>
+      <div class="card-header text-muted">
+        <h4>نظام التسجيل في السجل الصناعي للمواطن</h4>
+      </div>
       <br />
       <div class="card-body">
         <form style="text-align: right">
@@ -16,16 +18,25 @@
             <div class="form-group col-md-3">
               <label>رقم الهاتف :</label>
               <br />
-              <!-- <div id="app">
-                <h2>Phone number</h2>
-                <input v-model="value" type="text" @input="acceptNumber">
-              </div> -->
-              <input type="phone" class="form-control" required />
+              <input
+                style="text-align: left"
+                v-model="valuephone"
+                @input="acceptNumber"
+                type="phone"
+                class="form-control"
+                required
+              />
             </div>
 
             <div class="form-group col-md-3">
               <label>البلد ية :</label>
-              <select class="form-control">
+
+              <v-select
+                class="style-chooser"
+                :options="cities"
+                label="name"
+              ></v-select>
+              <!-- <select class="form-control">
                 <option selected disabled>اختر البلدية</option>
                 <option
                   v-for="cities in cities"
@@ -34,7 +45,7 @@
                 >
                   {{ cities.fields.name }}
                 </option>
-              </select>
+              </select> -->
             </div>
           </div>
 
@@ -144,59 +155,53 @@
           <h4>المصنع و الطاقة الإنتاجية</h4>
           <hr />
           <div class="row">
-            <div v-for="key in count" :key="key" class="row col-md-11" id="p">
+            <div  class="row col-md-11" id="p">
               <div class="form-group col-md-2">
                 <label>رقم الكود :</label>
                 <input
-                  v-model="search_code_factory"
+                  v-model="search_code_factory_1"
                   type="text"
                   class="form-control"
-                  required
-                  :id="key"
-                  @change="count_code_add"
-                  v-on:keyup.enter="count_code_add"
+                  required   
                 />
-              
+               
               </div>
 
               <div class="form-group col-md-4">
-                    <label >اسم المصنع :</label>
-                <p style="margin-top:10px;font-size:13px" v-show=" search_code_factory.length == 13 " 
-                  v-for="factory in filtered_search_code_factory"
+                <label >اسم المصنع :</label>
+                <p style="margin-top:10px;font-size:13px" v-show="code_lenth" 
+                  v-for="factory in filtered_search_code_factory_1"
                   :key="factory.pk"
                   v-text="factory.BPName "
                   ></p>
-               
+
+              
               </div>
 
               <div class="form-group col-md-2">
                 <label>العدد :</label>
                 <input
-                  v-model="values['dynamic-field-3' + key]"
+                
                   type="text"
                   class="form-control"
                   required
-                  :id="key"
                 />
               </div>
               <div class="form-group col-md-2">
                 <label>الكمية :</label>
                 <input
-                  v-model="values['dynamic-field-4' + key]"
+                
                   type="text"
                   class="form-control"
                   required
-                  :id="key"
                 />
               </div>
               <div class="form-group col-md-2">
                 <label>القيمة :</label>
                 <input
-                  v-model="values['dynamic-field-5' + key]"
                   type="text"
                   class="form-control"
                   required
-                  :id="key"
                 />
               </div>
             </div>
@@ -211,9 +216,75 @@
               >
                 +
               </button>
+             
+            </div>
+          </div>
+
+ <div v-if="count > 1" class="row">
+            <div  class="row col-md-11" id="p">
+              <div class="form-group col-md-2">
+                <label>رقم الكود :</label>
+                <input
+                  v-model="search_code_factory_2"
+                  type="text"
+                  class="form-control"
+                  required   
+                />
+               
+              </div>
+
+              <div class="form-group col-md-4">
+                <label >اسم المصنع :</label>
+                <p style="margin-top:10px;font-size:13px" v-show="code_lenth_2" 
+                  v-for="factory in filtered_search_code_factory_2"
+                  :key="factory.pk"
+                  v-text="factory.BPName "
+                  ></p>
+
+              
+              </div>
+
+              <div class="form-group col-md-2">
+                <label>العدد :</label>
+                <input
+                
+                  type="text"
+                  class="form-control"
+                  required
+                />
+              </div>
+              <div class="form-group col-md-2">
+                <label>الكمية :</label>
+                <input
+                
+                  type="text"
+                  class="form-control"
+                  required
+                />
+              </div>
+              <div class="form-group col-md-2">
+                <label>القيمة :</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="form-group row col-md-1" style="display: inline">
+              <br />
+              <button
+                @click="add_factorr_2"
+                id="add_more_fields"
+                type="button"
+                class="btn add_regist_code_prodect btn-success"
+              >
+                +
+              </button>
               <button
                 v-if="count > 1"
-                @click="remove"
+                @click="remove_factorr_2"
                 id="remove_more_fields"
                 type="button"
                 class="btn add_regist_code_prodect btn-danger"
@@ -224,40 +295,36 @@
             </div>
           </div>
 
+
           <br /><br /><br /><br />
+        
           <h4>المنتجات</h4>
           <hr />
           <div class="row">
             <div
               v-for="key in count_prodect"
               :key="key"
-              class="row col-md-8"
+              class="row col-md-10"
               id="p"
             >
-              <div class="form-group col-md-6">
-                <label>رقم الكود :</label>
-                <input
-                  v-model="values_prodect['dynamic-field-2' + key]"
-                  type="text"
-                  class="form-control"
-                  required
-                  :id="key"
-                />
+              
+              <div class="form-group col-md-4">
+                <label>رقم الكود:</label>
+                <v-select
+                  v-model="values_prodect[key]"
+                  class="style-chooser"
+                  :options="prodects"
+                  label="family"
+                ></v-select>
               </div>
-              <div class="form-group col-md-6">
-                <label>اسم المنتج :</label>
-                <!-- <input
-                  disabled
-                  v-model="values_prodect['dynamic-field-' + key]"
-                  type="text"
-                  class="form-control"
-                  required
-                  :id="key"
-                /> -->
+              <div class="form-group col-md-8">
+                <label style="margin-top:10px">تفاصيل المنتج :</label>
+                <br>
+                <label>{{ values_prodect[key] }}</label>
               </div>
             </div>
 
-            <div class="form-group col-md-4" style="display: inline">
+            <div class="form-group col-md-2" style="display: inline">
               <br />
               <button
                 @click="add_prod"
@@ -277,10 +344,65 @@
               >
                 -
               </button>
+
             </div>
+            
           </div>
 
           <br /><br /><br /><br />
+          
+          <h4>مستندات</h4>
+          <hr />
+          <div class="row">
+            <div class="row col-md-8" id="p">
+              <div class="form-group col-md-6">
+                <label>الرخصة :</label>
+                <br />
+                <div class="dropbox">
+                  <input
+                    type="file"
+                    multiple
+                    :name="uploadFieldName"
+                    :disabled="isSaving"
+                    @change="
+                      filesChange($event.target.name, $event.target.files);
+                      fileCount = $event.target.files.length;
+                    "
+                    accept="image/*"
+                    class="input-file"
+                  />
+                  <p v-if="isInitial">
+                    Drag your file(s) here to begin<br />
+                    or click to browse
+                  </p>
+                  <p v-if="isSaving">Uploading {{ fileCount }} files...</p>
+                </div>
+              </div>
+              <div class="form-group col-md-6">
+                <label>مستند :</label>
+                 <br />
+                <div class="dropbox">
+                  <input
+                    type="file"
+                    multiple
+                    :name="uploadFieldName"
+                    :disabled="isSaving"
+                    @change="
+                      filesChange($event.target.name, $event.target.files);
+                      fileCount = $event.target.files.length;
+                    "
+                    accept="image/*"
+                    class="input-file"
+                  />
+                  <p v-if="isInitial">
+                    Drag your file(s) here to begin<br />
+                    or click to browse
+                  </p>
+                  <p v-if="isSaving">Uploading {{ fileCount }} files...</p>
+                </div>
+              </div>
+            </div>
+          </div>
           <!-- <h4>الوقائع و التعديلات</h4>
           <hr>
           <div class="row">
@@ -355,16 +477,19 @@ import legal_status from "../json/legal_status.json";
 import cities from "../json/cities.json";
 import factory_code_name from "../json/factory_code_name.json";
 import actions from "../json/actions.json";
+import prodects from "../json/prodects.json";
 
 export default {
   name: "regist",
   data: function () {
     return {
+      prodects: prodects,
       count: 1, //عدد الحقول المضافة
       values: {}, //اسماء الحقول
-
+      valuephone: "",
       count_prodect: 1,
       values_prodect: {},
+      values_prodect_name: {},
 
       count_facts_browsers: 1,
       values_facts_browsers: {},
@@ -373,9 +498,11 @@ export default {
 
       cities: cities,
 
-    
-      search_code_factory: "",
+      search_code_factory_1: "",
+        search_code_factory_2: "",
       factory_code_name: factory_code_name,
+
+      index_code_fectory: 1,
 
       actions: actions,
     };
@@ -387,41 +514,58 @@ export default {
     remove: function () {
       this.count--;
     },
+     add_factorr_2: function () {
+      this.count++;
+    },
+    remove_factorr_2: function () {
+      this.count --;
+      this.search_code_factory_2="";
+    },
     add_prod: function () {
       this.count_prodect++;
     },
     remove_prod: function () {
       this.count_prodect--;
     },
-    add_facts_browsers: function () {
-      this.count_facts_browsers++;
-    },
-    remove_facts_browsers: function () {
-      this.count_facts_browsers--;
-    },
+   
     submit: function () {
-      for (var key of Object.keys(this.values)) {
-        console.log(key + " -> " + this.values[key]);
+      for (var key of Object.keys(this.values_prodect)) {
+        console.log(key + " -> " + this.values_prodect[key].prodect);
       }
     },
     acceptNumber() {
-      var x = this.value
+      var x = this.valuephone
         .replace(/\D/g, "")
         .match(/(\d{0,3})(\d{0,3})(\d{0,4})/);
-      this.value = !x[2]
+      this.valuephone = !x[2]
         ? x[1]
         : "(" + x[1] + ") " + x[2] + (x[3] ? "-" + x[3] : "");
     },
-    count_code_add()
-    {
-        
-    }
+    code_fectory_click_enter: function (key) {
+      this.index_code_fectory = key;
+    },
   },
   computed: {
-    filtered_search_code_factory() {
+    filtered_search_code_factory_1() {
       return this.factory_code_name.filter((factory) =>
-        factory.GlobalLocationNumber.toString().includes(this.search_code_factory)
+        factory.GlobalLocationNumber.toString().includes(
+          this.search_code_factory_1
+        )
       );
+    },
+    filtered_search_code_factory_2() {
+      return this.factory_code_name.filter((factory) =>
+        factory.GlobalLocationNumber.toString().includes(
+          this.search_code_factory_2
+        )
+      );
+    },
+    code_lenth() {
+      return this.search_code_factory_1.length == 13;
+    },
+    
+    code_lenth_2() {
+      return this.search_code_factory_2.length == 13;
     },
   },
 };
