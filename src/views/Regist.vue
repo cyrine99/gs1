@@ -26,6 +26,7 @@
                 class="form-control"
                 required
               />
+             <p v-show="phone_error==0" style="color:red">رقم الهاتف غير صحيح</p>
             </div>
 
             <div class="form-group col-md-3">
@@ -36,16 +37,7 @@
                 :options="cities"
                 label="name"
               ></v-select>
-              <!-- <select class="form-control">
-                <option selected disabled>اختر البلدية</option>
-                <option
-                  v-for="cities in cities"
-                  :key="cities.pk"
-                  value="cities.pk"
-                >
-                  {{ cities.fields.name }}
-                </option>
-              </select> -->
+            
             </div>
           </div>
 
@@ -69,16 +61,17 @@
             <div class="form-group col-md-6">
               <label>نوع النشاط :</label>
               <br />
-              <select class="form-control">
+              <select v-model="action" class="form-control">
                 <option selected disabled>اختر نوع النشاط</option>
                 <option
                   v-for="action in actions"
                   :key="action.pk"
-                  value="action.pk"
+                  :value="action.pk"
                 >
                   {{ action.active }}
                 </option>
               </select>
+
             </div>
           </div>
 
@@ -155,54 +148,39 @@
           <h4>المصنع و الطاقة الإنتاجية</h4>
           <hr />
           <div class="row">
-            <div  class="row col-md-11" id="p">
+            <div class="row col-md-11" id="p">
               <div class="form-group col-md-2">
                 <label>رقم الكود :</label>
                 <input
                   v-model="search_code_factory_1"
                   type="text"
                   class="form-control"
-                  required   
+                  required
                 />
-               
               </div>
 
               <div class="form-group col-md-4">
-                <label >اسم المصنع :</label>
-                <p style="margin-top:10px;font-size:13px" v-show="code_lenth" 
+                <label>اسم المصنع :</label>
+                <p
+                  style="margin-top: 10px; font-size: 13px"
+                  v-show="code_lenth"
                   v-for="factory in filtered_search_code_factory_1"
                   :key="factory.pk"
-                  v-text="factory.BPName "
-                  ></p>
-
-              
+                  v-text="factory.BPName"
+                ></p>
               </div>
 
               <div class="form-group col-md-2">
                 <label>العدد :</label>
-                <input
-                
-                  type="text"
-                  class="form-control"
-                  required
-                />
+                <input type="text" class="form-control" required />
               </div>
               <div class="form-group col-md-2">
                 <label>الكمية :</label>
-                <input
-                
-                  type="text"
-                  class="form-control"
-                  required
-                />
+                <input type="text" class="form-control" required />
               </div>
               <div class="form-group col-md-2">
                 <label>القيمة :</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  required
-                />
+                <input type="text" class="form-control" required />
               </div>
             </div>
 
@@ -216,59 +194,43 @@
               >
                 +
               </button>
-             
             </div>
           </div>
 
- <div v-if="count > 1" class="row">
-            <div  class="row col-md-11" id="p">
+          <div v-if="count > 1" class="row">
+            <div class="row col-md-11" id="p">
               <div class="form-group col-md-2">
                 <label>رقم الكود :</label>
                 <input
                   v-model="search_code_factory_2"
                   type="text"
                   class="form-control"
-                  required   
+                  required
                 />
-               
               </div>
 
               <div class="form-group col-md-4">
-                <label >اسم المصنع :</label>
-                <p style="margin-top:10px;font-size:13px" v-show="code_lenth_2" 
+                <label>اسم المصنع :</label>
+                <p
+                  style="margin-top: 10px; font-size: 13px"
+                  v-show="code_lenth_2"
                   v-for="factory in filtered_search_code_factory_2"
                   :key="factory.pk"
-                  v-text="factory.BPName "
-                  ></p>
-
-              
+                  v-text="factory.BPName"
+                ></p>
               </div>
 
               <div class="form-group col-md-2">
                 <label>العدد :</label>
-                <input
-                
-                  type="text"
-                  class="form-control"
-                  required
-                />
+                <input type="text" class="form-control" required />
               </div>
               <div class="form-group col-md-2">
                 <label>الكمية :</label>
-                <input
-                
-                  type="text"
-                  class="form-control"
-                  required
-                />
+                <input type="text" class="form-control" required />
               </div>
               <div class="form-group col-md-2">
                 <label>القيمة :</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  required
-                />
+                <input type="text" class="form-control" required />
               </div>
             </div>
 
@@ -295,32 +257,34 @@
             </div>
           </div>
 
-
           <br /><br /><br /><br />
-        
+
           <h4>المنتجات</h4>
           <hr />
-          <div class="row">
+          <div v-if="action.length > 0" class="row">
             <div
               v-for="key in count_prodect"
               :key="key"
               class="row col-md-10"
               id="p"
             >
-              
               <div class="form-group col-md-4">
                 <label>رقم الكود:</label>
                 <v-select
                   v-model="values_prodect[key]"
                   class="style-chooser"
-                  :options="prodects"
-                  label="family"
+                  :options="filtered_SegmentCode"
+                  label="FamilyCode"
                 ></v-select>
               </div>
               <div class="form-group col-md-8">
-                <label style="margin-top:10px">تفاصيل المنتج :</label>
-                <br>
-                <label>{{ values_prodect[key] }}</label>
+                <label  >اسم المنتج :</label>
+                 <v-select
+                  v-model="values_prodect[key]"
+                  class="style-chooser"
+                  :options="filtered_SegmentCode"
+                  label="FamilyTitle"
+                ></v-select>
               </div>
             </div>
 
@@ -340,17 +304,14 @@
                 id="remove_more_fields"
                 type="button"
                 class="btn add_regist_code_prodect_tow btn-danger"
-                style="background-color: #cd3c0d"
-              >
+                style="background-color: #cd3c0d">
                 -
               </button>
-
             </div>
-            
           </div>
 
           <br /><br /><br /><br />
-          
+
           <h4>مستندات</h4>
           <hr />
           <div class="row">
@@ -380,7 +341,7 @@
               </div>
               <div class="form-group col-md-6">
                 <label>مستند :</label>
-                 <br />
+                <br />
                 <div class="dropbox">
                   <input
                     type="file"
@@ -465,6 +426,7 @@
           إرسال
         </button>
 
+
         <br /><br />
       </div>
       <div class="card-footer text-muted"></div>
@@ -477,13 +439,13 @@ import legal_status from "../json/legal_status.json";
 import cities from "../json/cities.json";
 import factory_code_name from "../json/factory_code_name.json";
 import actions from "../json/actions.json";
-import prodects from "../json/prodects.json";
+import segment_family from "../json/segment-family.json";
 
 export default {
   name: "regist",
   data: function () {
     return {
-      prodects: prodects,
+      
       count: 1, //عدد الحقول المضافة
       values: {}, //اسماء الحقول
       valuephone: "",
@@ -499,12 +461,17 @@ export default {
       cities: cities,
 
       search_code_factory_1: "",
-        search_code_factory_2: "",
+      search_code_factory_2: "",
       factory_code_name: factory_code_name,
 
       index_code_fectory: 1,
 
       actions: actions,
+      action: "",
+
+      segment_family: segment_family,
+
+      phone_error:-1
     };
   },
   methods: {
@@ -514,12 +481,12 @@ export default {
     remove: function () {
       this.count--;
     },
-     add_factorr_2: function () {
+    add_factorr_2: function () {
       this.count++;
     },
     remove_factorr_2: function () {
-      this.count --;
-      this.search_code_factory_2="";
+      this.count--;
+      this.search_code_factory_2 = "";
     },
     add_prod: function () {
       this.count_prodect++;
@@ -527,19 +494,23 @@ export default {
     remove_prod: function () {
       this.count_prodect--;
     },
-   
+
     submit: function () {
       for (var key of Object.keys(this.values_prodect)) {
         console.log(key + " -> " + this.values_prodect[key].prodect);
       }
     },
     acceptNumber() {
-      var x = this.valuephone
-        .replace(/\D/g, "")
-        .match(/(\d{0,3})(\d{0,3})(\d{0,4})/);
-      this.valuephone = !x[2]
-        ? x[1]
-        : "(" + x[1] + ") " + x[2] + (x[3] ? "-" + x[3] : "");
+    const regexPhoneNumber = /^\+?(00|218|0)9(1|2|4)\d{7}$/; 
+
+	if (this.valuephone.match(regexPhoneNumber)) 
+    {
+		 this.phone_error=1 ;
+	}
+     else {
+	this.phone_error= 0 ;
+	}
+
     },
     code_fectory_click_enter: function (key) {
       this.index_code_fectory = key;
@@ -563,10 +534,19 @@ export default {
     code_lenth() {
       return this.search_code_factory_1.length == 13;
     },
-    
+
     code_lenth_2() {
       return this.search_code_factory_2.length == 13;
     },
+    
+     filtered_SegmentCode() {
+      return this.segment_family.filter((SegmentCode) =>
+        SegmentCode.SegmentCode.toString().includes(
+          this.action
+        )
+      );
+    },
+
   },
 };
 </script>

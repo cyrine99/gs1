@@ -1,0 +1,762 @@
+﻿[
+        {
+            "SegmentCode": "70000000",
+            "FamilyCode": "70010000",
+            "FamilyTitle": "الفنون / الحرف / لوازم التطريز"
+        },
+        {
+            "SegmentCode": "68000000",
+            "FamilyCode": "68010000",
+            "FamilyTitle": "المعدات السمعية والبصرية"
+        },
+        {
+            "SegmentCode": "68000000",
+            "FamilyCode": "68040000",
+            "FamilyTitle": "الوسائط المرئية والمسموعة"
+        },
+        {
+            "SegmentCode": "68000000",
+            "FamilyCode": "68050000",
+            "FamilyTitle": "حزم متنوعة سمعية وبصرية / تصوير فوتوغرافي"
+        },
+        {
+            "SegmentCode": "68000000",
+            "FamilyCode": "68030000",
+            "FamilyTitle": "إلكترونيات في السيارة"
+        },
+        {
+            "SegmentCode": "68000000",
+            "FamilyCode": "68020000",
+            "FamilyTitle": "تصوير / بصريات"
+        },
+        {
+            "SegmentCode": "53000000",
+            "FamilyCode": "53220000",
+            "FamilyTitle": "مستحضرات التجميل / العناية الشخصية / عبوات متنوعة للنظافة الشخصية"
+        },
+        {
+            "SegmentCode": "53000000",
+            "FamilyCode": "53200000",
+            "FamilyTitle": "منتجات الجسم"
+        },
+        {
+            "SegmentCode": "53000000",
+            "FamilyCode": "53160000",
+            "FamilyTitle": "مستحضرات التجميل / العطور"
+        },
+        {
+            "SegmentCode": "53000000",
+            "FamilyCode": "53140000",
+            "FamilyTitle": "منتجات الشعر"
+        },
+        {
+            "SegmentCode": "53000000",
+            "FamilyCode": "53240000",
+            "FamilyTitle": "منتجات الأمومة"
+        },
+        {
+            "SegmentCode": "53000000",
+            "FamilyCode": "53180000",
+            "FamilyTitle": "منتجات النظافة الشخصية"
+        },
+        {
+            "SegmentCode": "53000000",
+            "FamilyCode": "53230000",
+            "FamilyTitle": "العلاقة الحميمة الشخصية"
+        },
+        {
+            "SegmentCode": "53000000",
+            "FamilyCode": "53130000",
+            "FamilyTitle": "منتجات الجلد"
+        },
+        {
+            "SegmentCode": "83000000",
+            "FamilyCode": "83010000",
+            "FamilyTitle": "منتجات البناء"
+        },
+        {
+            "SegmentCode": "74000000",
+            "FamilyCode": "74010000",
+            "FamilyTitle": "تخييم"
+        },
+        {
+            "SegmentCode": "47000000",
+            "FamilyCode": "47100000",
+            "FamilyTitle": "منتجات التنظيف"
+        },
+        {
+            "SegmentCode": "47000000",
+            "FamilyCode": "47190000",
+            "FamilyTitle": "عبوات متنوعة من منتجات التنظيف / النظافة"
+        },
+        {
+            "SegmentCode": "47000000",
+            "FamilyCode": "47200000",
+            "FamilyTitle": "مستلزمات التنظيف / النظافة"
+        },
+        {
+            "SegmentCode": "47000000",
+            "FamilyCode": "47220000",
+            "FamilyTitle": "التنظيف الصناعي"
+        },
+        {
+            "SegmentCode": "47000000",
+            "FamilyCode": "47120000",
+            "FamilyTitle": "مكافحة الحشرات / الآفات / مسببات الحساسية"
+        },
+        {
+            "SegmentCode": "47000000",
+            "FamilyCode": "47210000",
+            "FamilyTitle": "منتجات إدارة النفايات"
+        },
+        {
+            "SegmentCode": "67000000",
+            "FamilyCode": "67030000",
+            "FamilyTitle": "أكتيفوير"
+        },
+        {
+            "SegmentCode": "67000000",
+            "FamilyCode": "67010000",
+            "FamilyTitle": "ملابس"
+        },
+        {
+            "SegmentCode": "67000000",
+            "FamilyCode": "67050000",
+            "FamilyTitle": "ملابس واقية"
+        },
+        {
+            "SegmentCode": "67000000",
+            "FamilyCode": "67020000",
+            "FamilyTitle": "ملابس نوم"
+        },
+        {
+            "SegmentCode": "67000000",
+            "FamilyCode": "67060000",
+            "FamilyTitle": "ملابس سباحة"
+        },
+        {
+            "SegmentCode": "67000000",
+            "FamilyCode": "67040000",
+            "FamilyTitle": "ثياب داخلية"
+        },
+        {
+            "SegmentCode": "66000000",
+            "FamilyCode": "66010000",
+            "FamilyTitle": "مجال الاتصالات"
+        },
+        {
+            "SegmentCode": "65000000",
+            "FamilyCode": "65010000",
+            "FamilyTitle": "أجهزة الكمبيوتر / ألعاب الفيديو"
+        },
+        {
+            "SegmentCode": "94000000",
+            "FamilyCode": "94020000",
+            "FamilyTitle": "المحاصيل الغذائية"
+        },
+        {
+            "SegmentCode": "94000000",
+            "FamilyCode": "94010000",
+            "FamilyTitle": "المحاصيل غير المخصصة للطعام أو العلف (للحيوانات والأسماك)"
+        },
+        {
+            "SegmentCode": "94000000",
+            "FamilyCode": "94030000",
+            "FamilyTitle": "العشب والمحاصيل الأخرى لتغذية الحيوانات أو لتحسين التربة"
+        },
+        {
+            "SegmentCode": "58000000",
+            "FamilyCode": "58010000",
+            "FamilyTitle": "عبر القطاعات"
+        },
+        {
+            "SegmentCode": "78000000",
+            "FamilyCode": "78040000",
+            "FamilyTitle": "الكابلات الكهربائية / الأسلاك"
+        },
+        {
+            "SegmentCode": "78000000",
+            "FamilyCode": "78020000",
+            "FamilyTitle": "التوصيلات الكهربائية / التوزيع"
+        },
+        {
+            "SegmentCode": "78000000",
+            "FamilyCode": "78030000",
+            "FamilyTitle": "الإضاءة الكهربائية"
+        },
+        {
+            "SegmentCode": "78000000",
+            "FamilyCode": "78050000",
+            "FamilyTitle": "مكونات الاتصالات الإلكترونية"
+        },
+        {
+            "SegmentCode": "78000000",
+            "FamilyCode": "78060000",
+            "FamilyTitle": "الأجهزة الكهربائية العامة"
+        },
+        {
+            "SegmentCode": "50000000",
+            "FamilyCode": "50200000",
+            "FamilyTitle": "المشروبات"
+        },
+        {
+            "SegmentCode": "50000000",
+            "FamilyCode": "50180000",
+            "FamilyTitle": "منتجات الخبز / المعجنات"
+        },
+        {
+            "SegmentCode": "50000000",
+            "FamilyCode": "50220000",
+            "FamilyTitle": "الحبوب / الحبوب / منتجات البقول"
+        },
+        {
+            "SegmentCode": "50000000",
+            "FamilyCode": "50160000",
+            "FamilyTitle": "حلويات / منتجات تحلية سكر"
+        },
+        {
+            "SegmentCode": "50000000",
+            "FamilyCode": "50120000",
+            "FamilyTitle": "سمك و مأكولات بحرية"
+        },
+        {
+            "SegmentCode": "50000000",
+            "FamilyCode": "50230000",
+            "FamilyTitle": "عبوات أطعمة / مشروبات / تبغ متنوعة"
+        },
+        {
+            "SegmentCode": "50000000",
+            "FamilyCode": "50360000",
+            "FamilyTitle": "مقبلات طازجة (طعام)"
+        },
+        {
+            "SegmentCode": "50000000",
+            "FamilyCode": "50250000",
+            "FamilyTitle": "فواكه - غير معدة / غير مصنعة (طازجة)"
+        },
+        {
+            "SegmentCode": "50000000",
+            "FamilyCode": "50270000",
+            "FamilyTitle": "فواكه - غير معدة / غير مصنعة (مجمدة)"
+        },
+        {
+            "SegmentCode": "50000000",
+            "FamilyCode": "50310000",
+            "FamilyTitle": "فواكه - غير معدة / غير مصنعة (أرفف مستقرة)"
+        },
+        {
+            "SegmentCode": "50000000",
+            "FamilyCode": "50370000",
+            "FamilyTitle": "فواكه / خضروات طازجة وطازجة مقطعة"
+        },
+        {
+            "SegmentCode": "50000000",
+            "FamilyCode": "50380000",
+            "FamilyTitle": "فواكه / خضروات طازجة مقطعة"
+        },
+        {
+            "SegmentCode": "50000000",
+            "FamilyCode": "50100000",
+            "FamilyTitle": "فواكه / خضروات / مكسرات / بذور محضرة / مصنعة"
+        },
+        {
+            "SegmentCode": "50000000",
+            "FamilyCode": "50350000",
+            "FamilyTitle": "الخضار الورقية - غير معدة / غير مصنعة (طازجة)"
+        },
+        {
+            "SegmentCode": "50000000",
+            "FamilyCode": "50390000",
+            "FamilyTitle": "بدائل اللحوم / الأسماك / المأكولات البحرية"
+        },
+        {
+            "SegmentCode": "50000000",
+            "FamilyCode": "50240000",
+            "FamilyTitle": "اللحوم / الدواجن / الحيوانات الأخرى"
+        },
+        {
+            "SegmentCode": "50000000",
+            "FamilyCode": "50130000",
+            "FamilyTitle": "حليب / زبدة / كريمة / زبادي / جبن / بيض / بدائل"
+        },
+        {
+            "SegmentCode": "50000000",
+            "FamilyCode": "50340000",
+            "FamilyTitle": "المكسرات / البذور - غير مهيأة / غير معالجة (في شل)"
+        },
+        {
+            "SegmentCode": "50000000",
+            "FamilyCode": "50330000",
+            "FamilyTitle": "المكسرات / البذور - غير مهيأة / غير معالجة (قابلة للتلف)"
+        },
+        {
+            "SegmentCode": "50000000",
+            "FamilyCode": "50150000",
+            "FamilyTitle": "زيوت / دهون صالحة للأكل"
+        },
+        {
+            "SegmentCode": "50000000",
+            "FamilyCode": "50190000",
+            "FamilyTitle": "أغذية محضرة / محفوظة"
+        },
+        {
+            "SegmentCode": "50000000",
+            "FamilyCode": "50170000",
+            "FamilyTitle": "توابل / مواد حافظة / مستخلصات"
+        },
+        {
+            "SegmentCode": "50000000",
+            "FamilyCode": "50210000",
+            "FamilyTitle": "التبغ / القنب / ملحقات التدخين"
+        },
+        {
+            "SegmentCode": "50000000",
+            "FamilyCode": "50290000",
+            "FamilyTitle": "خضروات - غير معدة / غير مصنعة (مجمدة)"
+        },
+        {
+            "SegmentCode": "50000000",
+            "FamilyCode": "50320000",
+            "FamilyTitle": "خضروات - غير معدة / غير معالجة (أرفف مستقرة)"
+        },
+        {
+            "SegmentCode": "50000000",
+            "FamilyCode": "50260000",
+            "FamilyTitle": "خضروات (غير ورقية) - غير مهيأة / غير معالجة (طازجة)"
+        },
+        {
+            "SegmentCode": "63000000",
+            "FamilyCode": "63010000",
+            "FamilyTitle": "الأحذية"
+        },
+        {
+            "SegmentCode": "87000000",
+            "FamilyCode": "87020000",
+            "FamilyTitle": "تخزين / تحويل الوقود"
+        },
+        {
+            "SegmentCode": "87000000",
+            "FamilyCode": "87010000",
+            "FamilyTitle": "الوقود / إضافات الوقود"
+        },
+        {
+            "SegmentCode": "87000000",
+            "FamilyCode": "87030000",
+            "FamilyTitle": "لا تستخدم الغازات كوقود"
+        },
+        {
+            "SegmentCode": "51000000",
+            "FamilyCode": "51110000",
+            "FamilyTitle": "خطة العائلة"
+        },
+        {
+            "SegmentCode": "51000000",
+            "FamilyCode": "51120000",
+            "FamilyTitle": "تعزيز الصحة"
+        },
+        {
+            "SegmentCode": "51000000",
+            "FamilyCode": "51100000",
+            "FamilyTitle": "العلاجات الصحية / الإيدز"
+        },
+        {
+            "SegmentCode": "51000000",
+            "FamilyCode": "51140000",
+            "FamilyTitle": "حزم متنوعة للرعاية الصحية"
+        },
+        {
+            "SegmentCode": "51000000",
+            "FamilyCode": "51130000",
+            "FamilyTitle": "تشخيصات المنزل"
+        },
+        {
+            "SegmentCode": "51000000",
+            "FamilyCode": "51150000",
+            "FamilyTitle": "أجهزة طبية"
+        },
+        {
+            "SegmentCode": "51000000",
+            "FamilyCode": "51160000",
+            "FamilyTitle": "الأدوية"
+        },
+        {
+            "SegmentCode": "51000000",
+            "FamilyCode": "51170000",
+            "FamilyTitle": "الرعاية الصحية البيطرية"
+        },
+        {
+            "SegmentCode": "72000000",
+            "FamilyCode": "72010000",
+            "FamilyTitle": "الأجهزة المنزلية الرئيسية"
+        },
+        {
+            "SegmentCode": "72000000",
+            "FamilyCode": "72020000",
+            "FamilyTitle": "الاجهزة المنزلية الصغيرة"
+        },
+        {
+            "SegmentCode": "93000000",
+            "FamilyCode": "93100000",
+            "FamilyTitle": "باقات"
+        },
+        {
+            "SegmentCode": "93000000",
+            "FamilyCode": "93050000",
+            "FamilyTitle": "المصابيح / القرم / الجذور / الدرنات"
+        },
+        {
+            "SegmentCode": "93000000",
+            "FamilyCode": "93010000",
+            "FamilyTitle": "أقطع الأزهار"
+        },
+        {
+            "SegmentCode": "93000000",
+            "FamilyCode": "93020000",
+            "FamilyTitle": "قطع الخضر"
+        },
+        {
+            "SegmentCode": "93000000",
+            "FamilyCode": "93030000",
+            "FamilyTitle": "النباتات الحية (من الجنس أ إلى ز)"
+        },
+        {
+            "SegmentCode": "93000000",
+            "FamilyCode": "93040000",
+            "FamilyTitle": "النباتات الحية (جنس H من خلال Z)"
+        },
+        {
+            "SegmentCode": "93000000",
+            "FamilyCode": "93060000",
+            "FamilyTitle": "حزم النباتات المتنوعة"
+        },
+        {
+            "SegmentCode": "93000000",
+            "FamilyCode": "93110000",
+            "FamilyTitle": "شتلات - جاهزة للنمو"
+        },
+        {
+            "SegmentCode": "93000000",
+            "FamilyCode": "93070000",
+            "FamilyTitle": "البذور / الجراثيم"
+        },
+        {
+            "SegmentCode": "93000000",
+            "FamilyCode": "93080000",
+            "FamilyTitle": "الشجيرات / الأشجار"
+        },
+        {
+            "SegmentCode": "93000000",
+            "FamilyCode": "93090000",
+            "FamilyTitle": "خضروات / نباتات فطرية"
+        },
+        {
+            "SegmentCode": "75000000",
+            "FamilyCode": "75050000",
+            "FamilyTitle": "أثاث الأطفال"
+        },
+        {
+            "SegmentCode": "75000000",
+            "FamilyCode": "75020000",
+            "FamilyTitle": "المفروشات النسيجية / النسيجية"
+        },
+        {
+            "SegmentCode": "75000000",
+            "FamilyCode": "75010000",
+            "FamilyTitle": "أثاث منزلي / مكتبي"
+        },
+        {
+            "SegmentCode": "75000000",
+            "FamilyCode": "75030000",
+            "FamilyTitle": "أثاثات الزينة"
+        },
+        {
+            "SegmentCode": "73000000",
+            "FamilyCode": "73040000",
+            "FamilyTitle": "أدوات المطبخ"
+        },
+        {
+            "SegmentCode": "73000000",
+            "FamilyCode": "73050000",
+            "FamilyTitle": "أدوات المائدة"
+        },
+        {
+            "SegmentCode": "81000000",
+            "FamilyCode": "81010000",
+            "FamilyTitle": "لوازم الحديقة / الحديقة"
+        },
+        {
+            "SegmentCode": "89000000",
+            "FamilyCode": "89020000",
+            "FamilyTitle": "الحيوانات الحية"
+        },
+        {
+            "SegmentCode": "88000000",
+            "FamilyCode": "88030000",
+            "FamilyTitle": "عبوات متنوعة لزيوت التشحيم"
+        },
+        {
+            "SegmentCode": "88000000",
+            "FamilyCode": "88010000",
+            "FamilyTitle": "مواد التشحيم / مركبات الحماية"
+        },
+        {
+            "SegmentCode": "88000000",
+            "FamilyCode": "88020000",
+            "FamilyTitle": "تخزين / نقل مواد التشحيم / مركبات الحماية"
+        },
+        {
+            "SegmentCode": "96000000",
+            "FamilyCode": "96010000",
+            "FamilyTitle": "العملة / البريد / الشهادات"
+        },
+        {
+            "SegmentCode": "61000000",
+            "FamilyCode": "61010000",
+            "FamilyTitle": "آلات موسيقية / ملحقاتها"
+        },
+        {
+            "SegmentCode": "64000000",
+            "FamilyCode": "64010000",
+            "FamilyTitle": "الملحقات الشخصية"
+        },
+        {
+            "SegmentCode": "10000000",
+            "FamilyCode": "10100000",
+            "FamilyTitle": "رعاية الحيوانات الاليفة"
+        },
+        {
+            "SegmentCode": "10000000",
+            "FamilyCode": "10120000",
+            "FamilyTitle": "عبوات رعاية الحيوانات الأليفة / أغذية متنوعة"
+        },
+        {
+            "SegmentCode": "10000000",
+            "FamilyCode": "10110000",
+            "FamilyTitle": "أطعمة / مشروبات الحيوانات الأليفة"
+        },
+        {
+            "SegmentCode": "79000000",
+            "FamilyCode": "79010000",
+            "FamilyTitle": "السباكة / التدفئة / التهوية / تكييف الهواء"
+        },
+        {
+            "SegmentCode": "99000000",
+            "FamilyCode": "99010000",
+            "FamilyTitle": "منتجات تشريح الجثة"
+        },
+        {
+            "SegmentCode": "98000000",
+            "FamilyCode": "98020000",
+            "FamilyTitle": "المواد الخام المشكلة"
+        },
+        {
+            "SegmentCode": "98000000",
+            "FamilyCode": "98010000",
+            "FamilyTitle": "المواد الخام غير المشكّلة"
+        },
+        {
+            "SegmentCode": "85000000",
+            "FamilyCode": "85010000",
+            "FamilyTitle": "السلامة / الحماية - افعلها بنفسك"
+        },
+        {
+            "SegmentCode": "91000000",
+            "FamilyCode": "91050000",
+            "FamilyTitle": "سلامة الطفل / الأمن / المراقبة"
+        },
+        {
+            "SegmentCode": "91000000",
+            "FamilyCode": "91020000",
+            "FamilyTitle": "سلامة البيئة / الأمن"
+        },
+        {
+            "SegmentCode": "91000000",
+            "FamilyCode": "91030000",
+            "FamilyTitle": "الرئيسية / سلامة الأعمال / الأمن / المراقبة"
+        },
+        {
+            "SegmentCode": "91000000",
+            "FamilyCode": "91010000",
+            "FamilyTitle": "السلامة الشخصية / الأمن"
+        },
+        {
+            "SegmentCode": "91000000",
+            "FamilyCode": "91040000",
+            "FamilyTitle": "حزم متنوعة للسلامة / الأمن / المراقبة"
+        },
+        {
+            "SegmentCode": "95000000",
+            "FamilyCode": "95020000",
+            "FamilyTitle": "تشييد المباني والخدمات ذات الصلة"
+        },
+        {
+            "SegmentCode": "95000000",
+            "FamilyCode": "95010000",
+            "FamilyTitle": "الأعمال والخدمات التجارية"
+        },
+        {
+            "SegmentCode": "95000000",
+            "FamilyCode": "95030000",
+            "FamilyTitle": "خدمات التنظيف"
+        },
+        {
+            "SegmentCode": "95000000",
+            "FamilyCode": "95040000",
+            "FamilyTitle": "خدمات الاتصالات"
+        },
+        {
+            "SegmentCode": "95000000",
+            "FamilyCode": "95160000",
+            "FamilyTitle": "الاستغناء / آلات البيع"
+        },
+        {
+            "SegmentCode": "95000000",
+            "FamilyCode": "95050000",
+            "FamilyTitle": "خدمات تعليمية وترفيهية"
+        },
+        {
+            "SegmentCode": "95000000",
+            "FamilyCode": "95060000",
+            "FamilyTitle": "الطاقة والخدمات البيئية"
+        },
+        {
+            "SegmentCode": "95000000",
+            "FamilyCode": "95070000",
+            "FamilyTitle": "الخدمات المالية"
+        },
+        {
+            "SegmentCode": "95000000",
+            "FamilyCode": "95110000",
+            "FamilyTitle": "خدمات الطعام والشراب والإقامة"
+        },
+        {
+            "SegmentCode": "95000000",
+            "FamilyCode": "95120000",
+            "FamilyTitle": "خدمات الصيانة / الإصلاح والتركيب"
+        },
+        {
+            "SegmentCode": "95000000",
+            "FamilyCode": "95130000",
+            "FamilyTitle": "خدمات العناية الطبية والتجميلية"
+        },
+        {
+            "SegmentCode": "95000000",
+            "FamilyCode": "95080000",
+            "FamilyTitle": "خدمات التعبئة والتغليف / التخزين"
+        },
+        {
+            "SegmentCode": "95000000",
+            "FamilyCode": "95090000",
+            "FamilyTitle": "خدمات بريدية"
+        },
+        {
+            "SegmentCode": "95000000",
+            "FamilyCode": "95100000",
+            "FamilyTitle": "الخدمات العلمية والتكنولوجية"
+        },
+        {
+            "SegmentCode": "95000000",
+            "FamilyCode": "95140000",
+            "FamilyTitle": "خدمات النقل"
+        },
+        {
+            "SegmentCode": "95000000",
+            "FamilyCode": "95150000",
+            "FamilyTitle": "خدمات سفر"
+        },
+        {
+            "SegmentCode": "71000000",
+            "FamilyCode": "71020000",
+            "FamilyTitle": "تمارين / وسائل نقل الأطفال"
+        },
+        {
+            "SegmentCode": "71000000",
+            "FamilyCode": "71010000",
+            "FamilyTitle": "ادوات رياضية"
+        },
+        {
+            "SegmentCode": "62000000",
+            "FamilyCode": "62050000",
+            "FamilyTitle": "بطاقات المعايدة / تغليف الهدايا / لوازم المناسبات"
+        },
+        {
+            "SegmentCode": "62000000",
+            "FamilyCode": "62060000",
+            "FamilyTitle": "أدوات مكتبية / قرطاسية"
+        },
+        {
+            "SegmentCode": "62000000",
+            "FamilyCode": "62070000",
+            "FamilyTitle": "أدوات مكتبية / آلات مكتبية / لوازم المناسبات عبوات متنوعة"
+        },
+        {
+            "SegmentCode": "92000000",
+            "FamilyCode": "92010000",
+            "FamilyTitle": "زجاجات التخزين / الاسطوانات / البراميل (فارغة)"
+        },
+        {
+            "SegmentCode": "92000000",
+            "FamilyCode": "92040000",
+            "FamilyTitle": "التخزين / مساعدات النقل"
+        },
+        {
+            "SegmentCode": "92000000",
+            "FamilyCode": "92020000",
+            "FamilyTitle": "صناديق التخزين / النقل / الصناديق / الصواني (فارغة)"
+        },
+        {
+            "SegmentCode": "92000000",
+            "FamilyCode": "92030000",
+            "FamilyTitle": "حاويات التخزين / النقل (فارغة)"
+        },
+        {
+            "SegmentCode": "60000000",
+            "FamilyCode": "60010000",
+            "FamilyTitle": "مواد نصية / مطبوعة / مرجعية"
+        },
+        {
+            "SegmentCode": "84000000",
+            "FamilyCode": "84010000",
+            "FamilyTitle": "أدوات التخزين / ورشة العمل"
+        },
+        {
+            "SegmentCode": "80000000",
+            "FamilyCode": "80010000",
+            "FamilyTitle": "أدوات / معدات - يدوية"
+        },
+        {
+            "SegmentCode": "82000000",
+            "FamilyCode": "82010000",
+            "FamilyTitle": "أدوات / معدات - طاقة"
+        },
+        {
+            "SegmentCode": "86000000",
+            "FamilyCode": "86020000",
+            "FamilyTitle": "منتجات القمار المقدمة الخدمة"
+        },
+        {
+            "SegmentCode": "86000000",
+            "FamilyCode": "86010000",
+            "FamilyTitle": "اللعب / الألعاب"
+        },
+        {
+            "SegmentCode": "77000000",
+            "FamilyCode": "77040000",
+            "FamilyTitle": "الطائرات"
+        },
+        {
+            "SegmentCode": "77000000",
+            "FamilyCode": "77010000",
+            "FamilyTitle": "اكسسوارات السيارات وصيانتها"
+        },
+        {
+            "SegmentCode": "77000000",
+            "FamilyCode": "77030000",
+            "FamilyTitle": "سيارات ودراجات نارية"
+        },
+        {
+            "SegmentCode": "77000000",
+            "FamilyCode": "77050000",
+            "FamilyTitle": "المركبات المتخصصة"
+        }
+    ]
