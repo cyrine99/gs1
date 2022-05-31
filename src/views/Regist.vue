@@ -317,7 +317,7 @@
           <div class="row">
             <div class="row col-md-8" id="p">
               <div class="form-group col-md-6">
-                <label>الرخصة :</label>
+                <label>رخصة النشاط التجاري :</label>
                 <br />
                 <div class="dropbox">
                   <input
@@ -340,7 +340,7 @@
                 </div>
               </div>
               <div class="form-group col-md-6">
-                <label>مستند :</label>
+                <label>السجل التجاري :</label>
                 <br />
                 <div class="dropbox">
                   <input
