@@ -5,7 +5,7 @@ import Blog from "../views/Blog.vue"
 import About from "../views/About.vue";
 import Help from "../views/Help.vue";
 import Regist from "../views/Regist.vue";
-
+import Login from "../views/dashboard/Login.vue";
 
 Vue.use(VueRouter);
 
@@ -33,6 +33,11 @@ const routes = [{
         path: "/regist",
         name: "Regist",
         component: Regist,
+    },
+    {
+        path: "/login",
+        name: "login",
+        component: Login,
     },
 
 ];

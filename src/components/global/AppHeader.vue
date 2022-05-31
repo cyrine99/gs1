@@ -20,9 +20,14 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active home_link" aria-current="page" href="/">
-                الرئيسية
-              </a>
+             
+                <router-link  class="nav-link active home_link" aria-current="page" to="/" tag="li">
+                    <a>الرئيسية</a>
+                </router-link>
+
+                 <router-link  class="nav-link active home_link" aria-current="page" to="/login" tag="li">
+                    <a>لوحة التحكم</a>
+                </router-link>
             </li>
           </ul>
         </div>
