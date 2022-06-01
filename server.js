@@ -1,18 +1,10 @@
-const express = require('express')
-const serveStatic = require('serve-static')
-const path = require('path')
+const express = require('express');
+const app = express();
+
+// Serve all the files in '/dist' directory
+app.use(express.static('dist'));
 
 
-
-const app = express()
-
-
-
-app.use('/', serveStatic(path.join(__dirname, '/dist')))
-
-
-const port = process.env.PORT || 8080
-
-app.listen(port)
-
-console.log('listing on port : ' + port)
+app.listen(3000, function() {
+    console.log('Example app listening on port 3000!');
+});
