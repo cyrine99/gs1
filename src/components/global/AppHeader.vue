@@ -68,10 +68,7 @@ export default {
 </script>
 
 <style scoped>
-.header {
-  background-color: #ffffff;
-  box-shadow: 0 0px 8px rgb(0 0 0 / 22%);
-}
+
 .header a {
   text-decoration: none;
   color: #002c6c;
@@ -84,12 +81,7 @@ export default {
 nav ul {
   text-align: left;
 }
-.logo {
-  float: right;
-  height:50px; 
-  border-radius: 50px;
-  margin-left:18px
-}
+
 .navbar .nav-item .nav-link {
   font-size: 16px;
   color: #002c6c;

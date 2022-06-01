@@ -13,6 +13,11 @@ body {
     background-color: #f4f4f4;
 }
 
+.header {
+    background-color: #ffffff;
+    box-shadow: 0 0px 8px rgb(0 0 0 / 22%);
+}
+
 ul {
     list-style: none;
 }
@@ -94,4 +99,11 @@ label {
     border-color: #002C6C;
     margin-top: 5px;
     padding-bottom: 8px;
+}
+
+.logo {
+    float: right;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 18px
 }
